@@ -1,0 +1,852 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"scro",
+				"scrollElement"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"post",
+				"postThumb"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-position"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"or",
+				"orange"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"block",
+				"blockWrap"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"foot",
+				"footerColor"
+			],
+			[
+				"foo",
+				"footerColor"
+			],
+			[
+				"ip",
+				"iPhoneM"
+			],
+			[
+				"iP",
+				"iPhoneP"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"iPhon",
+				"iPhoneP"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"iPhone",
+				"iPhoneM"
+			],
+			[
+				"iPh",
+				"iPhoneM"
+			],
+			[
+				"iPad",
+				"iPadL"
+			],
+			[
+				"ho",
+				"homeBanner"
+			],
+			[
+				"slid",
+				"sliderH"
+			],
+			[
+				"iPho",
+				"iPhoneM"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"Slide",
+				"Slideshow"
+			],
+			[
+				"plO",
+				"plObjs"
+			],
+			[
+				"plo",
+				"plObjs"
+			],
+			[
+				"pl",
+				"plObj"
+			],
+			[
+				"plObjs",
+				"plObjsRaw"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bg",
+				"bgPosNum"
+			],
+			[
+				"pro",
+				"progress"
+			],
+			[
+				"scale",
+				"scalseStopPos"
+			],
+			[
+				"con",
+				"console"
+			],
+			[
+				"the_",
+				"the_title"
+			],
+			[
+				"na",
+				"offsetForNav"
+			],
+			[
+				"off",
+				"offsetForNav"
+			],
+			[
+				"offset",
+				"offsetTop"
+			],
+			[
+				"men",
+				"menu_object"
+			],
+			[
+				"title",
+				"title_attr"
+			],
+			[
+				"menu",
+				"menu_object"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"the",
+				"the_post"
+			],
+			[
+				"about",
+				"aboutPage"
+			],
+			[
+				"ab",
+				"aboutPage"
+			],
+			[
+				"desc",
+				"description"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"packag",
+				"Package Control: List Packages"
+			],
+			[
+				"color",
+				"Color picker"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"wordpre",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"wordpres",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"wordpress",
+				"WordPress Codex: Search from Input"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"wordp",
+				"WordPress Codex: Open Function Reference"
+			],
+			[
+				"word",
+				"WordPress Codex: Search Selection"
+			],
+			[
+				"duplica",
+				"File: Duplicate"
+			],
+			[
+				"fetch",
+				"Fetch: Package"
+			],
+			[
+				"git push",
+				"Git: Push Current Branch"
+			],
+			[
+				"git comi",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"project",
+				"Project: Edit"
+			],
+			[
+				"project ed",
+				"Project: Edit"
+			],
+			[
+				"proje",
+				"Project: Save As"
+			],
+			[
+				"fet",
+				"Fetch: Manage"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"syn jasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syn html",
+				"Set Syntax: HTML"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/options.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/functions.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/style-icons.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/sidebar.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/page-home.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/header.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/sidebar.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/js/js.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/single-project.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/footer.php",
+		"/Users/fitzryland/Dropbox/design/Enspire Studios/enspirestudios-icons28238/index.html",
+		"/Users/fitzryland/Dropbox/design/Enspire Studios/enspirestudios-icons28238/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/js/theme_trust_edit.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/js/theme_trust.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/functions.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/js/theme_trust.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/js/slideshow.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/options.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/style.scss",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-includes/theme-compat/header.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/part-project-thumb.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/part-projects.php",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/Hex to HSL Color Converter/readme.md",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/Hex to HSL Color Converter/Default (OSX).sublime-keymap",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/ColorPicker/Default (OSX).sublime-keymap",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/ColorPicker/README.md",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/ColorPicker/ColorPicker.sublime-commands",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/page-blog.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/page-portfolio.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/plugins/jquery-smooth-scroll/js/jss-script.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/.htaccess",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/plugins/jquery-smooth-scroll/jquery-smooth-scroll.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/js/scrollto.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-includes/nav-menu-template.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/Five3/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/plugins/easy-smooth-scroll-links/easy_smooth_scroll_links.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-includes/js/jquery/jquery.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/footer.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/js/smoothscroll.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/js/smoothscroll.js",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/page-home.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/part-project-thumb.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/page-home.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/style.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/header.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/header.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/taxonomy-skill.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/home.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-config.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust-child/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/twentyeleven/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/home.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-config-sample.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/bridgetownbasscom/wp-content/themes/bridgetownbass/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/bridgetownbasscom/wp-content/themes/bridgetownbass/event.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/test.sublime-project",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/index.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/new.php",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Default.sublime-keymap",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/Commands.sublime-commands",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/SideBarEnhancements/messages/11.13.2012.1305.0.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/new.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/another.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/css/style.css style.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/css/style.scss css/main.css",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/test/css/style.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/bridgetownbasscom/wp-content/themes/bridgetownbass/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/bridgetownbasscom/index.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/drewtysoncom/wp-content/themes/drewtysoncom/style.scss",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/drewtysoncom/wp-content/themes/drewtysoncom/js/site.js",
+		"/tmp/subl stdin WXwkSX.txt",
+		"/tmp/subl stdin HTrbvX.txt",
+		"/tmp/subl stdin sgISDC.txt",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/drewtysoncom/wp-content/themes/drewtysoncom/category.php",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/drewtysoncom/wp-content/themes/drewtysoncom/drewtysoncom.tmproj",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/drewtysoncom/wp-content/themes/drewtysoncom/drewtysoncom.sublime-project",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/drewtysoncom/wp-content/themes/drewtysoncom/drewtysoncom"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<project>",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest",
+			"<project>",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust",
+			"<project>",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest",
+			"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"client",
+			"clients",
+			"top",
+			"console",
+			"_page_item",
+			"body.ho",
+			"projects",
+			"bannerTe",
+			"featured",
+			"services",
+			"featuredPages",
+			"featuredPages {",
+			"var target",
+			"targetOffset",
+			"jQuery",
+			"$",
+			"pageHead",
+			"of_get",
+			"validate",
+			"1.5",
+			"2.5",
+			"1em",
+			"1px",
+			".bgWhite",
+			"arrow",
+			"//",
+			"stylesheet_directory_uri()",
+			"<?php stylesheet_directory_uri(); ?>",
+			"php",
+			"echo",
+			"stylesheet_directory_uri",
+			"fonts",
+			"font",
+			"prefix-style",
+			"#content",
+			"border",
+			"link",
+			"orange",
+			"lightBlue",
+			".link",
+			"link",
+			"flexslider",
+			".wr",
+			"footer",
+			"-12px",
+			".block",
+			"none",
+			"/*",
+			"width",
+			"575757",
+			"console",
+			".js",
+			"slideshow.php",
+			"slideshow",
+			"ttrust_slideshow_delay",
+			"#content",
+			".wrap",
+			"height",
+			"scaleStopPos",
+			"scaleStartPos",
+			"pl2h",
+			"#content",
+			"plVarReset",
+			"vpb",
+			"about",
+			"white",
+			"#B07F2F",
+			"block",
+			"job",
+			"jobs",
+			".home",
+			"#main",
+			".group",
+			".wrap",
+			"<div class=\"blockWrap\">",
+			"white",
+			"background-image:url('img/texturetastic_white.png');",
+			"white",
+			"a:",
+			"wrap",
+			"pageHead",
+			"ttrust_one_third_cropped",
+			"975",
+			"970",
+			"975",
+			"1000",
+			"wrap",
+			"main",
+			"textColor",
+			"style",
+			"animate",
+			"scrollTop",
+			"newDest",
+			"dest",
+			"main",
+			"search_box_function",
+			"nav",
+			"wp_nav_menu",
+			"16",
+			"custom",
+			"home",
+			"Featured Projects",
+			"Pages",
+			"Our Services",
+			"ttrust_featured_pages_title",
+			"Featured Pages Title",
+			"$",
+			"$j",
+			"$",
+			"jquery",
+			"services",
+			"licence",
+			"homeBanner",
+			"homeBann",
+			"f",
+			"font-family",
+			"h2",
+			"twitter",
+			"facebook",
+			"div",
+			"\">\n",
+			"php",
+			"page",
+			"nav",
+			"div"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 197.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"herofunctions",
+				"wp-content/themes/hero-child/functions.php"
+			],
+			[
+				"herooptions",
+				"wp-content/themes/hero-child/options.php"
+			],
+			[
+				"foot",
+				"wp-content/themes/hero-child/footer.php"
+			],
+			[
+				"footer",
+				"wp-content/themes/hero-child/footer.php"
+			],
+			[
+				"head",
+				"wp-content/themes/hero-child/header.php"
+			],
+			[
+				"js.js",
+				"wp-content/themes/hero-child/js/js.js"
+			],
+			[
+				"home",
+				"wp-content/themes/hero-child/page-home.php"
+			],
+			[
+				"sidebar",
+				"wp-content/themes/hero-child/sidebar.php"
+			],
+			[
+				"heroinde",
+				"wp-content/themes/hero-child/index.php"
+			],
+			[
+				"side",
+				"wp-content/themes/herothemetrust/sidebar.php"
+			],
+			[
+				"header",
+				"wp-content/themes/hero-child/header.php"
+			],
+			[
+				"js",
+				"wp-content/themes/hero-child/js/js.js"
+			],
+			[
+				"project",
+				"wp-content/themes/hero-child/single-project.php"
+			],
+			[
+				"style.css",
+				"wp-content/themes/hero-child/style.css"
+			],
+			[
+				"herojs",
+				"wp-content/themes/herothemetrust/js/theme_trust.js"
+			],
+			[
+				"func",
+				"wp-content/themes/hero-child/functions.php"
+			],
+			[
+				"functions",
+				"wp-content/themes/hero-child/functions.php"
+			],
+			[
+				"scss",
+				"wp-content/themes/hero-child/style.scss"
+			],
+			[
+				"options",
+				"wp-content/themes/hero-child/options.php"
+			],
+			[
+				"herocoption",
+				"wp-content/themes/hero-child/options.php"
+			],
+			[
+				"part-pro",
+				"wp-content/themes/herothemetrust/part-project-thumb.php"
+			],
+			[
+				"herostyle",
+				"wp-content/themes/herothemetrust/style.css"
+			],
+			[
+				"herosty",
+				"wp-content/themes/herothemetrust/style.css"
+			],
+			[
+				"herofunc",
+				"wp-content/themes/herothemetrust/functions.php"
+			],
+			[
+				"scroll",
+				"wp-content/themes/hero-child/js/scrollto.js"
+			],
+			[
+				"style",
+				"wp-content/themes/Five3/style.css"
+			],
+			[
+				"jquery",
+				"wp-includes/js/jquery/jquery.js"
+			],
+			[
+				"herofooter",
+				"wp-content/themes/herothemetrust/footer.php"
+			],
+			[
+				"smooth",
+				"wp-content/themes/hero-child/js/smoothscroll.js"
+			],
+			[
+				"herofunction",
+				"wp-content/themes/herothemetrust/functions.php"
+			],
+			[
+				"style.scss",
+				"style.scss"
+			],
+			[
+				"sy",
+				"wp-content/themes/herothemetrust/style.css"
+			],
+			[
+				"css",
+				"style.css"
+			],
+			[
+				"event",
+				"event.php"
+			],
+			[
+				"ev",
+				"event.php"
+			],
+			[
+				"even",
+				"event.php"
+			],
+			[
+				"",
+				"index.php"
+			],
+			[
+				"inde",
+				"index.php"
+			],
+			[
+				"sty",
+				"style.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true
+}
