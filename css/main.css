@@ -1,13 +1,14 @@
-.serif {
+.serif, body {
   font-family: 'Gentium Basic', serif; }
 
-.script {
+.script, h1, h2 {
   font-family: 'Tangerine', cursive; }
 
 /* General Site Wide Selectors ****************************************/
 body {
   background-color: #fffefa;
-  color: #0f2231; }
+  color: #0f2231;
+  font-size: 16px; }
 
 .wrap {
   border: 1px solid #0f2231;
@@ -18,4 +19,12 @@ body {
     .wrap {
       width: 316px; } }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; }
+
+h1 {
+  font-size: 3em; }
+
 /* Page Specific Selectors ****************************************/
+body.Welcome section {
+  text-align: center; }

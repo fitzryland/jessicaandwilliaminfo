@@ -28,6 +28,8 @@ $darkBlue:#0f2231;
 body {
 	background-color: $white;
 	color:$darkBlue;
+	font-size:16px;
+	@extend .serif;
 }
 .wrap {
 	border:1px solid $darkBlue;
@@ -38,4 +40,18 @@ body {
 		width: $mobileWidth;
 	}
 }
+h1, h2, h3, h4, h5, h6 {
+	font-weight:400;
+}
+h1, h2 {
+	@extend .script;
+}
+h1 {
+	font-size:3em;
+}
 /* Page Specific Selectors ****************************************/
+body.Welcome {
+	section {
+		text-align: center;
+	}
+}
