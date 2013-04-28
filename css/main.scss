@@ -1,0 +1,41 @@
+// Variables ******************************************************
+$mobileBreak:600px;
+$mobileWidth:316px;
+$fullBreak:1300px;
+$fullWidth:1000px;
+
+$white:#fffefa;
+$darkBlue:#0f2231;
+
+// Mixins ******************************************************
+@mixin break($point) {
+	@if $point == full {
+		@media only screen and (max-width: $fullBreak) { @content; }
+	}
+	@else if $point == mobile {
+		@media only screen and (max-width: $mobileBreak) { @content; }
+	}
+}
+
+// Extendables  ******************************************************
+.serif {
+	font-family: 'Gentium Basic', serif;
+}
+.script {
+	font-family: 'Tangerine', cursive;
+}
+/* General Site Wide Selectors ****************************************/
+body {
+	background-color: $white;
+	color:$darkBlue;
+}
+.wrap {
+	border:1px solid $darkBlue;
+	height:100px;
+	margin: 0 auto;
+	max-width:$fullWidth;
+	@include break(mobile) {
+		width: $mobileWidth;
+	}
+}
+/* Page Specific Selectors ****************************************/
