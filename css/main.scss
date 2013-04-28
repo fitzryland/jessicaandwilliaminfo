@@ -1,11 +1,16 @@
 // Variables ******************************************************
+$fullBreak:850px;
+$fullWidth:730px;
+$middleWidth:550px;
 $mobileBreak:600px;
 $mobileWidth:316px;
-$fullBreak:1300px;
-$fullWidth:1000px;
+
+
+
 
 $white:#fffefa;
 $darkBlue:#0f2231;
+$lightBlue:#3588ff;
 
 // Mixins ******************************************************
 @mixin break($point) {
@@ -14,6 +19,13 @@ $darkBlue:#0f2231;
 	}
 	@else if $point == mobile {
 		@media only screen and (max-width: $mobileBreak) { @content; }
+	}
+}
+@mixin group() {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
 	}
 }
 
@@ -27,21 +39,25 @@ $darkBlue:#0f2231;
 /* General Site Wide Selectors ****************************************/
 body {
 	background-color: $white;
-//	color:$darkBlue;
+	color:$darkBlue;
 	font-size:16px;
+	padding:1em;
 	@extend .serif;
+	@include break(mobile) {
+		padding:0;
+	}
 }
 .wrap {
-//	border:1px solid $darkBlue;
-	height:100px;
+	border:1px solid $darkBlue;
 	margin: 0 auto;
 	max-width:$fullWidth;
+	padding:1em;
+	@include break(full) {
+		width: $middleWidth;
+	}
 	@include break(mobile) {
 		width: $mobileWidth;
 	}
-}
-nav {
-	text-align: center;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight:400;
@@ -51,6 +67,31 @@ h1, h2 {
 }
 h1 {
 	font-size:3em;
+}
+a:link, a:visited {
+	color:$darkBlue;
+	text-decoration:none;
+	transition: all 0.1s linear;
+}
+a:hover, a:active {
+	border-bottom:2px solid $lightBlue;
+	color:$lightBlue;
+}
+nav {
+	text-align: center;
+	a {
+		margin-left:1em;
+	}
+	a:first-child {
+		margin-left:0;
+	}
+	@include break (full) {
+		font-size:1.1em;
+		line-height:1.7em;
+	}
+}
+a.current {
+	border-bottom:2px solid $lightBlue;
 }
 /* Page Specific Selectors ****************************************/
 body.Welcome {

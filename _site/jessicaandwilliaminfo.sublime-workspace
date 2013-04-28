@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"mobi",
+				"mobileWidth"
+			],
+			[
+				"full",
+				"fullWidth"
+			],
+			[
 				"scro",
 				"scrollElement"
 			],
@@ -231,15 +239,7 @@
 			"file": "_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 1824,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 67,
+				"buffer_size": 2125,
 				"line_ending": "Unix"
 			}
 		},
@@ -250,14 +250,62 @@
 				"buffer_size": 342,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 176,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.scss",
+			"settings":
+			{
+				"buffer_size": 1185,
+				"line_ending": "Unix"
+			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/SASS Build/SASS.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 27.0,
 		"selected_items":
 		[
+			[
+				"git gui",
+				"Git: Gui"
+			],
+			[
+				"git ",
+				"Git: Gui"
+			],
+			[
+				"git bran",
+				"Git: Change Branch"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
 			[
 				"html",
 				"Set Syntax: HTML"
@@ -269,10 +317,6 @@
 			[
 				"pack",
 				"Package Control: List Packages"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"packa",
@@ -335,10 +379,6 @@
 				"Git: Add..."
 			],
 			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
 				"project",
 				"Project: Edit"
 			],
@@ -392,6 +432,16 @@
 	},
 	"file_history":
 	[
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/CNAME",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/css/main.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/jessicaandwilliaminfo.sublime-project",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/jessicaandwilliaminfo.sublime-workspace",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Distraction Free.sublime-settings",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Sass.sublime-settings",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/css/normalize.css",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/_config.yml",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/_includes/nav.ext",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/_includes/nav.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/weddingparty.html",
@@ -426,8 +476,6 @@
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/hero-child/style.scss",
 		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap",
 		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
-		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/Users/fitzryland/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-includes/theme-compat/header.php",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/part-project-thumb.php",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/estest/wp-content/themes/herothemetrust/part-projects.php",
@@ -515,6 +563,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"rake",
 			"client",
 			"clients",
 			"top",
@@ -665,24 +714,68 @@
 					"file": "_layouts/default.html",
 					"settings":
 					{
-						"buffer_size": 1824,
+						"buffer_size": 2125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1370,
-								1370
+								1673,
+								1673
 							]
 						],
 						"settings":
 						{
+							"BracketHighlighterBusy": false,
 							"annotations":
 							[
 								"TODO",
 								"README",
 								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
 							],
 							"csslint_options":
 							{
@@ -771,34 +864,78 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 20.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "index.html",
+					"file": "_includes/nav.html",
 					"settings":
 					{
-						"buffer_size": 67,
+						"buffer_size": 342,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								335,
+								335
 							]
 						],
 						"settings":
 						{
+							"BracketHighlighterBusy": false,
 							"annotations":
 							[
 								"TODO",
 								"README",
 								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
 							],
 							"csslint_options":
 							{
@@ -892,27 +1029,71 @@
 				},
 				{
 					"buffer": 2,
-					"file": "_includes/nav.html",
+					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 342,
+						"buffer_size": 176,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								176,
+								176
 							]
 						],
 						"settings":
 						{
+							"BracketHighlighterBusy": false,
 							"annotations":
 							[
 								"TODO",
 								"README",
 								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
 							],
 							"csslint_options":
 							{
@@ -1003,6 +1184,165 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "css/main.scss",
+					"settings":
+					{
+						"buffer_size": 1185,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								937,
+								937
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": false,
+							"sublimelinter_mark_style": "outline",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 294.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		}
@@ -1040,7 +1380,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 100.0
+		"height": 121.0
 	},
 	"output.git":
 	{
@@ -1056,6 +1396,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"css",
+				"css/main.css"
+			],
 			[
 				"herofunctions",
 				"wp-content/themes/hero-child/functions.php"
@@ -1185,10 +1529,6 @@
 				"wp-content/themes/herothemetrust/style.css"
 			],
 			[
-				"css",
-				"style.css"
-			],
-			[
 				"event",
 				"event.php"
 			],
@@ -1227,6 +1567,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 225.0,
+	"side_bar_width": 160.0,
 	"status_bar_visible": true
 }

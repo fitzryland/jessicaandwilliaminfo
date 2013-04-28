@@ -1,10 +1,15 @@
 <nav>
-	<a href="index.html">Welcome</a>
-	<a href="ourstory.html">Our Story</a>
-	<a href="weddingparty.html">Wedding Party</a>
-	<a href="schedule.html">Schedule</a>
-	<a href="directions.html">Directions</a>
-	<a href="accomodations.html">Accomodations</a>
-	<a href="thingstodo.html">Things To Do</a>
-	<a href="registry.html">Registry</a>
+	<a href="index.html" class="{% if page.title == 'Welcome' %} current{% endif %}">Welcome</a>
+	<a href="ourstory.html" class="{% if page.title == 'Our Story' %} current{% endif %}">Our Story</a>
+	<a href="weddingparty.html" class="{% if page.title == 'Wedding Party' %} current{% endif %}">Wedding Party</a>
+	<a href="schedule.html" class="{% if page.title == 'Schedule' %} current{% endif %}">Schedule</a>
+	<a href="directions.html" class="{% if page.title == 'Directions' %} current{% endif %}">Directions</a>
+	<a href="accomodations.html" class="{% if page.title == 'Accomodations' %} current{% endif %}">Accomodations</a>
+	<a href="thingstodo.html" class="{% if page.title == 'Things To Do' %} current{% endif %}">Things To Do</a>
+	<a href="registry.html" class="{% if page.title == 'Registry' %} current{% endif %}">Registry</a>
 </nav>
+{% comment %}
+{% for page in site.pages %}
+	{{ page }}
+{% endfor %}
+{% endcomment %}
