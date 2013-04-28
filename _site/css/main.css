@@ -7,11 +7,9 @@
 /* General Site Wide Selectors ****************************************/
 body {
   background-color: #fffefa;
-  color: #0f2231;
   font-size: 16px; }
 
 .wrap {
-  border: 1px solid #0f2231;
   height: 100px;
   margin: 0 auto;
   max-width: 1000px; }

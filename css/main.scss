@@ -27,12 +27,12 @@ $darkBlue:#0f2231;
 /* General Site Wide Selectors ****************************************/
 body {
 	background-color: $white;
-	color:$darkBlue;
+//	color:$darkBlue;
 	font-size:16px;
 	@extend .serif;
 }
 .wrap {
-	border:1px solid $darkBlue;
+//	border:1px solid $darkBlue;
 	height:100px;
 	margin: 0 auto;
 	max-width:$fullWidth;
