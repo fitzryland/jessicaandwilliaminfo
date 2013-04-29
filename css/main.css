@@ -4,6 +4,13 @@
 .script, h1, h2 {
   font-family: 'Tangerine', cursive; }
 
+.boxShadow, .wrap {
+  -webkit-box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.2);
+  box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.2); }
+
+.textShadow, body.welcome section {
+  text-shadow: 1px 1px 5px #fffefa; }
+
 /* General Site Wide Selectors ****************************************/
 body {
   background-color: #fffefa;
@@ -55,6 +62,25 @@ nav {
 a.current {
   border-bottom: 2px solid #3588ff; }
 
+section:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+ul {
+  float: left;
+  list-style-type: none;
+  margin: 1em;
+  padding: 0; }
+
 /* Page Specific Selectors ****************************************/
-body.Welcome section {
+body.welcome section {
+  background: url("../images/Napa.jpg") no-repeat center center;
   text-align: center; }
+  body.welcome section h1:first-child {
+    margin-bottom: 2em; }
+  body.welcome section h1:nth-child(2n) {
+    margin: 2em 0 0; }
+  body.welcome section p {
+    font-size: 1.3em;
+    margin-bottom: 4em; }
