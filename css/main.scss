@@ -11,6 +11,7 @@ $mobileWidth:316px;
 $white:#fffefa;
 $darkBlue:#0f2231;
 $lightBlue:#3588ff;
+$boxShadow:hsla(0%, 0%, 10%, 0.2);
 
 // Mixins ******************************************************
 @mixin break($point) {
@@ -36,6 +37,13 @@ $lightBlue:#3588ff;
 .script {
 	font-family: 'Tangerine', cursive;
 }
+.boxShadow {
+	-webkit-box-shadow: 2px 2px 5px $boxShadow;
+	box-shadow: 2px 2px 5px $boxShadow;
+}
+.textShadow {
+	text-shadow: 1px 1px 5px $white;
+}
 /* General Site Wide Selectors ****************************************/
 body {
 	background-color: $white;
@@ -52,6 +60,7 @@ body {
 	margin: 0 auto;
 	max-width:$fullWidth;
 	padding:1em;
+	@extend .boxShadow;
 	@include break(full) {
 		width: $middleWidth;
 	}
@@ -93,9 +102,30 @@ nav {
 a.current {
 	border-bottom:2px solid $lightBlue;
 }
+section {
+	@include group();
+}
+ul {
+	float:left;
+	list-style-type:none;
+	margin:1em;
+	padding:0;
+}
 /* Page Specific Selectors ****************************************/
-body.Welcome {
+body.welcome {
 	section {
+		background:url('../images/Napa.jpg') no-repeat center center;
 		text-align: center;
+		@extend .textShadow;
+		h1:first-child {
+			margin-bottom: 2em;
+		}
+		h1:nth-child(2n) {
+			margin:2em 0 0;
+		}
+		p {
+			font-size: 1.3em;
+			margin-bottom:4em;
+		}
 	}
 }
