@@ -105,6 +105,9 @@ a.current {
 section {
 	@include group();
 }
+h1:first-child {
+	float: left;
+}
 ul {
 	float:left;
 	list-style-type:none;
@@ -114,7 +117,7 @@ ul {
 /* Page Specific Selectors ****************************************/
 body.welcome {
 	section {
-		background:url('../images/Napa.jpg') no-repeat center center;
+//		background:url('../images/Napa.jpg') no-repeat center center;
 		text-align: center;
 		@extend .textShadow;
 		h1:first-child {
@@ -128,4 +131,11 @@ body.welcome {
 			margin-bottom:4em;
 		}
 	}
+	h1:first-child {
+		float:none;
+	}
+}
+/* Directions */
+iframe {
+	float:right;
 }
