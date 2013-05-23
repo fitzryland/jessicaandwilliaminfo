@@ -9,6 +9,7 @@ $mobileWidth:316px;
 
 
 $white:#fffefa;
+$darkWhite:#8c7b4f;
 $darkBlue:#0f2231;
 $lightBlue:#3588ff;
 $boxShadow:hsla(0%, 0%, 10%, 0.2);
@@ -46,7 +47,7 @@ $boxShadow:hsla(0%, 0%, 10%, 0.2);
 }
 /* General Site Wide Selectors ****************************************/
 body {
-	background-color: $white;
+	background-color: $darkWhite;
 	color:$darkBlue;
 	font-size:16px;
 	padding:1em;
@@ -56,6 +57,7 @@ body {
 	}
 }
 .wrap {
+	background-color:$white;
 	border:1px solid $darkBlue;
 	margin: 0 auto;
 	max-width:$fullWidth;
@@ -106,10 +108,9 @@ section {
 	@include group();
 }
 h1:first-child {
-	float: left;
+//	float: left;
 }
 ul {
-	float:left;
 	list-style-type:none;
 	margin:1em;
 	padding:0;
@@ -134,6 +135,33 @@ body.welcome {
 	h1:first-child {
 		float:none;
 	}
+}
+/* Schedule */
+.dayTitle {
+	font-size:2em;
+	text-align:center;
+}
+.event {
+	margin-bottom:1em;
+	@include group();
+}
+.evTitle {
+}
+.evMeta {
+	// border-top:0.5em solid lighten($lightBlue, 10%);
+	// border-right:0.5em solid $lightBlue;
+	// border-bottom:0.5em solid $lightBlue;
+	// border-left:0.5em solid lighten($lightBlue, 10%);
+	float:left;
+	text-align:center;
+	width:33%;
+	@include break(mobile) {
+		float:none;
+		width:100%;
+	}
+}
+.evTitle {
+	font-size:1.5em;
 }
 /* Directions */
 iframe {

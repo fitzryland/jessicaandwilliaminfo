@@ -251,7 +251,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 2371,
+				"buffer_size": 2406,
 				"line_ending": "Unix"
 			}
 		},
@@ -759,7 +759,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -774,8 +774,8 @@
 						"selection":
 						[
 							[
-								1795,
-								1795
+								1654,
+								1632
 							]
 						],
 						"settings":
@@ -917,7 +917,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 158.0,
+						"translation.y": 241.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -927,15 +927,15 @@
 					"file": "css/main.scss",
 					"settings":
 					{
-						"buffer_size": 2371,
+						"buffer_size": 2406,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1905,
-								1905
+								123,
+								123
 							]
 						],
 						"settings":
@@ -1076,7 +1076,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1583.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1389,7 +1389,8 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -2575,7 +2576,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 160.0,
 	"status_bar_visible": true
 }
