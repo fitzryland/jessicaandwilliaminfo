@@ -55,6 +55,7 @@ $boxShadow:hsla(0%, 0%, 10%, 0.2);
 }
 .script {
 	font-family: 'Tangerine', cursive;
+	font-weight: 700;
 }
 .boxShadow {
 	-webkit-box-shadow: 2px 2px 5px $boxShadow;
@@ -124,9 +125,6 @@ body {
 		width: $mobileWidth;
 	}
 }
-h1, h2, h3, h4, h5, h6 {
-//	font-weight:400;
-}
 h1, h2 {
 	@extend .script;
 }
@@ -146,6 +144,7 @@ a:hover, a:active {
 	color: $lightBlue;
 }
 nav {
+	border-bottom: 0.1em solid $blue;
 	text-align: center;
 	a:link, a:visited {
 		color:$darkBlue;
@@ -161,6 +160,10 @@ nav {
 	}
 	.current:link, .current:visited {
 		color: $lightBlue;
+		border-bottom: 0.3em solid $lightBlue;
+	}
+	.current:hover, .current:active {
+		text-decoration: none;
 	}
 	@include break (full) {
 		font-size:1.1em;

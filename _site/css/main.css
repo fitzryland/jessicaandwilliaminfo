@@ -2,7 +2,8 @@
   font-family: 'Gentium Basic', serif; }
 
 .script, h1, h2 {
-  font-family: 'Tangerine', cursive; }
+  font-family: 'Tangerine', cursive;
+  font-weight: 700; }
 
 .boxShadow {
   -webkit-box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.2);
@@ -71,6 +72,7 @@ a:hover, a:active {
   color: #3588ff; }
 
 nav {
+  border-bottom: 0.1em solid #104acd;
   text-align: center; }
   nav a:link, nav a:visited {
     color: #0f2231;
@@ -82,7 +84,10 @@ nav {
   nav a:first-child {
     margin-left: 0; }
   nav .current:link, nav .current:visited {
-    color: #3588ff; }
+    color: #3588ff;
+    border-bottom: 0.3em solid #3588ff; }
+  nav .current:hover, nav .current:active {
+    text-decoration: none; }
   @media only screen and (max-width: 850px) {
     nav {
       font-size: 1.1em;
