@@ -1,20 +1,32 @@
-// Variables ******************************************************
+// http://patorjk.com/software/taag/#p=display&f=Georgia11&t=Type%20Something%20
+//                                ,,           ,,        ,,
+// `7MMF'   `7MF'                 db          *MM      `7MM
+//   `MA     ,V                                MM        MM
+//    VM:   ,V ,6"Yb.  `7Mb,od8 `7MM   ,6"Yb.  MM,dMMb.  MM  .gP"Ya  ,pP"Ybd
+//     MM.  M'8)   MM    MM' "'   MM  8)   MM  MM    `Mb MM ,M'   Yb 8I   `"
+//     `MM A'  ,pm9MM    MM       MM   ,pm9MM  MM     M8 MM 8M"""""" `YMMMa.
+//      :MM;  8M   MM    MM       MM  8M   MM  MM.   ,M9 MM YM.    , L.   I8
+//       VF   `Moo9^Yo..JMML.   .JMML.`Moo9^Yo.P^YbmdP'.JMML.`Mbmmd' M9mmmP'
 $fullBreak:850px;
 $fullWidth:730px;
 $middleWidth:550px;
 $mobileBreak:600px;
 $mobileWidth:316px;
 
-
-
-
 $white:#fffefa;
-$darkWhite:#8c7b4f;
+$darkWhite:#fcf9d7;
+$blue: #104acd;
 $darkBlue:#0f2231;
 $lightBlue:#3588ff;
 $boxShadow:hsla(0%, 0%, 10%, 0.2);
-
-// Mixins ******************************************************
+//                   ,,               ,,             gp
+// `7MMM.     ,MMF'  db               db             \/
+//   MMMb    dPMM                                    `'
+//   M YM   ,M MM  `7MM  `7M'   `MF'`7MM  `7MMpMMMb.   ,pP"Ybd
+//   M  Mb  M' MM    MM    `VA ,V'    MM    MM    MM   8I   `"
+//   M  YM.P'  MM    MM      XMX      MM    MM    MM   `YMMMa.
+//   M  `YM'   MM    MM    ,V' VA.    MM    MM    MM   L.   I8
+// .JML. `'  .JMML..JMML..AM.   .MA..JMML..JMML  JMML. M9mmmP'
 @mixin break($point) {
 	@if $point == full {
 		@media only screen and (max-width: $fullBreak) { @content; }
@@ -30,8 +42,14 @@ $boxShadow:hsla(0%, 0%, 10%, 0.2);
 		clear: both;
 	}
 }
-
-// Extendables  ******************************************************
+//                                                        ,,
+// `7MM"""YMM               mm                          `7MM
+//   MM    `7               MM                            MM
+//   MM   d    `7M'   `MF'mmMMmm .gP"Ya `7MMpMMMb.   ,M""bMM
+//   MMmmMM      `VA ,V'    MM  ,M'   Yb  MM    MM ,AP    MM
+//   MM   Y  ,     XMX      MM  8M""""""  MM    MM 8MI    MM
+//   MM     ,M   ,V' VA.    MM  YM.    ,  MM    MM `Mb    MM
+// .JMMmmmmMMM .AM.   .MA.  `Mbmo`Mbmmd'.JMML  JMML.`Wbmd"MML.
 .serif {
 	font-family: 'Gentium Basic', serif;
 }
@@ -45,9 +63,22 @@ $boxShadow:hsla(0%, 0%, 10%, 0.2);
 .textShadow {
 	text-shadow: 1px 1px 5px $white;
 }
-/* General Site Wide Selectors ****************************************/
+//            ,,                                          ,,        ,,
+//  .M"""bgd  db   mm               `7MMF'     A     `7MF'db      `7MM
+// ,MI    "Y       MM                 `MA     ,MA     ,V            MM
+// `MMb.    `7MM mmMMmm .gP"Ya         VM:   ,VVM:   ,V `7MM   ,M""bMM  .gP"Ya
+//   `YMMNq.  MM   MM  ,M'   Yb         MM.  M' MM.  M'   MM ,AP    MM ,M'   Yb
+// .     `MM  MM   MM  8M""""""         `MM A'  `MM A'    MM 8MI    MM 8M""""""
+// Mb     dM  MM   MM  YM.    ,          :MM;    :MM;     MM `Mb    MM YM.    ,
+// P"Ybmmd" .JMML. `Mbmo`Mbmmd'           VF      VF    .JMML.`Wbmd"MML.`Mbmmd'
+* {
+	box-sizing: border-box;
+}
+img {
+	padding: 0 !important; // with box-sizing: border-box images should never have padding
+}
 body {
-	background-color: $darkWhite;
+	background-color: $white;
 	color:$darkBlue;
 	font-size:16px;
 	padding:1em;
@@ -57,12 +88,12 @@ body {
 	}
 }
 .wrap {
-	background-color:$white;
-	border:1px solid $darkBlue;
+//	@extend .boxShadow;
+//	background-color:blue;
+//	border:1px solid $darkBlue;
 	margin: 0 auto;
 	max-width:$fullWidth;
 	padding:1em;
-	@extend .boxShadow;
 	@include break(full) {
 		width: $middleWidth;
 	}
@@ -80,29 +111,34 @@ h1 {
 	font-size:3em;
 }
 a:link, a:visited {
-	color:$darkBlue;
-	text-decoration:none;
+	color: $blue;
+	text-decoration: underline;
 	transition: all 0.1s linear;
 }
 a:hover, a:active {
-	border-bottom:2px solid $lightBlue;
-	color:$lightBlue;
+	color: $lightBlue;
 }
 nav {
 	text-align: center;
-	a {
+	a:link, a:visited {
+		color:$darkBlue;
 		margin-left:1em;
+		text-decoration: none;
+	}
+	a:hover, a:active {
+		color: $lightBlue;
+		text-decoration: underline;
 	}
 	a:first-child {
 		margin-left:0;
+	}
+	.current:link, .current:visited {
+		color: $lightBlue;
 	}
 	@include break (full) {
 		font-size:1.1em;
 		line-height:1.7em;
 	}
-}
-a.current {
-	border-bottom:2px solid $lightBlue;
 }
 section {
 	@include group();
@@ -115,17 +151,42 @@ ul {
 	margin:1em;
 	padding:0;
 }
-/* Page Specific Selectors ****************************************/
-body.welcome {
+.mediaObj {
+	@include group();
+}
+.media {
+	float: right;
+	margin-left: 1em;
+}
+// MM MM MM                                                     MM MM MM
+// MM MM MM     `7MM"""Mq.                                      MM MM MM
+// MM MM MM       MM   `MM.                                     MM MM MM
+// MM MM MM       MM   ,M9 ,6"Yb.  .P"Ybmmm .gP"Ya  ,pP"Ybd     MM MM MM
+// MM MM MM       MMmmdM9 8)   MM :MI  I8  ,M'   Yb 8I   `"     MM MM MM
+// MM MM MM       MM       ,pm9MM  WmmmP"  8M"""""" `YMMMa.     MM MM MM
+// MM MM MM       MM      8M   MM 8M       YM.    , L.   I8     MM MM MM
+// MM MM MM     .JMML.    `Moo9^Yo.YMMMMMb  `Mbmmd' M9mmmP'     MM MM MM
+// MM MM MM                       6'     dP                     MM MM MM
+// MM MM MM                       Ybmmmd'                       MM MM MM
+
+// `7MMF'  `7MMF'
+//   MM      MM
+//   MM      MM  ,pW"Wq.`7MMpMMMb.pMMMb.  .gP"Ya
+//   MMmmmmmmMM 6W'   `Wb MM    MM    MM ,M'   Yb
+//   MM      MM 8M     M8 MM    MM    MM 8M""""""
+//   MM      MM YA.   ,A9 MM    MM    MM YM.    ,
+// .JMML.  .JMML.`Ybmd9'.JMML  JMML  JMML.`Mbmmd'
+/*body*/.welcome {
 	section {
-//		background:url('../images/Napa.jpg') no-repeat center center;
-		text-align: center;
 		@extend .textShadow;
-		h1:first-child {
-			margin-bottom: 2em;
+		text-align: center;
+		img {
+			display: block;
+			margin: 1em auto;
+			width: 530px;
 		}
-		h1:nth-child(2n) {
-			margin:2em 0 0;
+		h1, h2 {
+			display: inline;
 		}
 		p {
 			font-size: 1.3em;
@@ -136,7 +197,14 @@ body.welcome {
 		float:none;
 	}
 }
-/* Schedule */
+//                    ,,                       ,,               ,,
+//  .M"""bgd        `7MM                     `7MM             `7MM
+// ,MI    "Y          MM                       MM               MM
+// `MMb.      ,p6"bo  MMpMMMb.  .gP"Ya    ,M""bMM `7MM  `7MM    MM  .gP"Ya
+//   `YMMNq. 6M'  OO  MM    MM ,M'   Yb ,AP    MM   MM    MM    MM ,M'   Yb
+// .     `MM 8M       MM    MM 8M"""""" 8MI    MM   MM    MM    MM 8M""""""
+// Mb     dM YM.    , MM    MM YM.    , `Mb    MM   MM    MM    MM YM.    ,
+// P"Ybmmd"   YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML. `Mbod"YML..JMML.`Mbmmd'
 .dayTitle {
 	font-size:2em;
 	text-align:center;
@@ -163,7 +231,54 @@ body.welcome {
 .evTitle {
 	font-size:1.5em;
 }
-/* Directions */
+//                ,,                                    ,,
+// `7MM"""Yb.     db                             mm     db
+//   MM    `Yb.                                  MM
+//   MM     `Mb `7MM  `7Mb,od8 .gP"Ya   ,p6"bo mmMMmm `7MM  ,pW"Wq.`7MMpMMMb.  ,pP"Ybd
+//   MM      MM   MM    MM' "',M'   Yb 6M'  OO   MM     MM 6W'   `Wb MM    MM  8I   `"
+//   MM     ,MP   MM    MM    8M"""""" 8M        MM     MM 8M     M8 MM    MM  `YMMMa.
+//   MM    ,dP'   MM    MM    YM.    , YM.    ,  MM     MM YA.   ,A9 MM    MM  L.   I8
+// .JMMmmmdP'   .JMML..JMML.   `Mbmmd'  YMbmd'   `Mbmo.JMML.`Ybmd9'.JMML  JMML.M9mmmP'
 iframe {
 	float:right;
 }
+//       db
+//      ;MM:
+//     ,V^MM.    ,p6"bo   ,p6"bo   ,pW"Wq.`7MMpMMMb.pMMMb.  ,pW"Wq.
+//    ,M  `MM   6M'  OO  6M'  OO  6W'   `Wb MM    MM    MM 6W'   `Wb
+//    AbmmmqMA  8M       8M       8M     M8 MM    MM    MM 8M     M8
+//   A'     VML YM.    , YM.    , YA.   ,A9 MM    MM    MM YA.   ,A9
+// .AMA.   .AMMA.YMbmd'   YMbmd'   `Ybmd9'.JMML  JMML  JMML.`Ybmd9'
+
+//                ,,          ,,
+// MMP""MM""YMM `7MM          db
+// P'   MM   `7   MM
+//      MM        MMpMMMb.  `7MM  `7MMpMMMb.  .P"Ybmmm ,pP"Ybd
+//      MM        MM    MM    MM    MM    MM :MI  I8   8I   `"
+//      MM        MM    MM    MM    MM    MM  WmmmP"   `YMMMa.
+//      MM        MM    MM    MM    MM    MM 8M        L.   I8
+//    .JMML.    .JMML  JMML..JMML..JMML  JMML.YMMMMMb  M9mmmP'
+//                                           6'     dP
+//                                           Ybmmmd'
+
+//                                    ,,
+// `7MMF'     A     `7MF'           `7MM      `7MM"""Mq.                    mm
+//   `MA     ,MA     ,V               MM        MM   `MM.                   MM
+//    VM:   ,VVM:   ,V .gP"Ya    ,M""bMM        MM   ,M9 ,6"Yb.  `7Mb,od8 mmMMmm `7M'   `MF'
+//     MM.  M' MM.  M',M'   Yb ,AP    MM        MMmmdM9 8)   MM    MM' "'   MM     VA   ,V
+//     `MM A'  `MM A' 8M"""""" 8MI    MM        MM       ,pm9MM    MM       MM      VA ,V
+//      :MM;    :MM;  YM.    , `Mb    MM        MM      8M   MM    MM       MM       VVV
+//       VF      VF    `Mbmmd'  `Wbmd"MML.    .JMML.    `Moo9^Yo..JMML.     `Mbmo    ,V
+//                                                                                  ,V
+//                                                                               OOb"
+
+//                                 ,,
+// `7MM"""Mq.                      db            mm
+//   MM   `MM.                                   MM
+//   MM   ,M9  .gP"Ya   .P"Ybmmm `7MM  ,pP"Ybd mmMMmm `7Mb,od8 `7M'   `MF'
+//   MMmmdM9  ,M'   Yb :MI  I8     MM  8I   `"   MM     MM' "'   VA   ,V
+//   MM  YM.  8M""""""  WmmmP"     MM  `YMMMa.   MM     MM        VA ,V
+//   MM   `Mb.YM.    , 8M          MM  L.   I8   MM     MM         VVV
+// .JMML. .JMM.`Mbmmd'  YMMMMMb  .JMML.M9mmmP'   `Mbmo.JMML.       ,V
+//                     6'     dP                                  ,V
+//                     Ybmmmd'                                 OOb"

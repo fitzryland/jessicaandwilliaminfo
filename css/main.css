@@ -4,16 +4,21 @@
 .script, h1, h2 {
   font-family: 'Tangerine', cursive; }
 
-.boxShadow, .wrap {
+.boxShadow {
   -webkit-box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.2);
   box-shadow: 2px 2px 5px rgba(26, 26, 26, 0.2); }
 
-.textShadow, body.welcome section {
+.textShadow, .welcome section {
   text-shadow: 1px 1px 5px #fffefa; }
 
-/* General Site Wide Selectors ****************************************/
+* {
+  box-sizing: border-box; }
+
+img {
+  padding: 0 !important; }
+
 body {
-  background-color: #8c7b4f;
+  background-color: #fffefa;
   color: #0f2231;
   font-size: 16px;
   padding: 1em; }
@@ -22,8 +27,6 @@ body {
       padding: 0; } }
 
 .wrap {
-  background-color: #fffefa;
-  border: 1px solid #0f2231;
   margin: 0 auto;
   max-width: 730px;
   padding: 1em; }
@@ -41,27 +44,30 @@ h1 {
   font-size: 3em; }
 
 a:link, a:visited {
-  color: #0f2231;
-  text-decoration: none;
+  color: #104acd;
+  text-decoration: underline;
   transition: all 0.1s linear; }
 
 a:hover, a:active {
-  border-bottom: 2px solid #3588ff;
   color: #3588ff; }
 
 nav {
   text-align: center; }
-  nav a {
-    margin-left: 1em; }
+  nav a:link, nav a:visited {
+    color: #0f2231;
+    margin-left: 1em;
+    text-decoration: none; }
+  nav a:hover, nav a:active {
+    color: #3588ff;
+    text-decoration: underline; }
   nav a:first-child {
     margin-left: 0; }
+  nav .current:link, nav .current:visited {
+    color: #3588ff; }
   @media only screen and (max-width: 850px) {
     nav {
       font-size: 1.1em;
       line-height: 1.7em; } }
-
-a.current {
-  border-bottom: 2px solid #3588ff; }
 
 section:after {
   content: "";
@@ -73,20 +79,30 @@ ul {
   margin: 1em;
   padding: 0; }
 
-/* Page Specific Selectors ****************************************/
-body.welcome section {
+.mediaObj:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.media {
+  float: right;
+  margin-left: 1em; }
+
+/*body*/
+.welcome section {
   text-align: center; }
-  body.welcome section h1:first-child {
-    margin-bottom: 2em; }
-  body.welcome section h1:nth-child(2n) {
-    margin: 2em 0 0; }
-  body.welcome section p {
+  .welcome section img {
+    display: block;
+    margin: 1em auto;
+    width: 530px; }
+  .welcome section h1, .welcome section h2 {
+    display: inline; }
+  .welcome section p {
     font-size: 1.3em;
     margin-bottom: 4em; }
-body.welcome h1:first-child {
+.welcome h1:first-child {
   float: none; }
 
-/* Schedule */
 .dayTitle {
   font-size: 2em;
   text-align: center; }
@@ -110,6 +126,5 @@ body.welcome h1:first-child {
 .evTitle {
   font-size: 1.5em; }
 
-/* Directions */
 iframe {
   float: right; }
