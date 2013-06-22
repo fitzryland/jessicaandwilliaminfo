@@ -11,6 +11,24 @@
 .textShadow, .welcome section {
   text-shadow: 1px 1px 5px #fffefa; }
 
+.mediaObj:after {
+  content: "";
+  display: table;
+  clear: both; }
+@media only screen and (max-width: 600px) {
+  .mediaObj {
+    border-top: 0.2em solid #104acd;
+    padding-top: 1em; } }
+
+.media {
+  display: block;
+  float: right;
+  margin-left: 1em; }
+  @media only screen and (max-width: 600px) {
+    .media {
+      float: none;
+      margin: 0 auto; } }
+
 * {
   box-sizing: border-box; }
 
@@ -37,11 +55,12 @@ body {
     .wrap {
       width: 316px; } }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
-
 h1 {
-  font-size: 3em; }
+  font-size: 3em;
+  text-align: center; }
+
+h2 {
+  font-size: 2.2em; }
 
 a:link, a:visited {
   color: #104acd;
@@ -78,15 +97,6 @@ ul {
   list-style-type: none;
   margin: 1em;
   padding: 0; }
-
-.mediaObj:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-.media {
-  float: right;
-  margin-left: 1em; }
 
 /*body*/
 .welcome section {

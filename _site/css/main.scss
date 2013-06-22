@@ -63,6 +63,32 @@ $boxShadow:hsla(0%, 0%, 10%, 0.2);
 .textShadow {
 	text-shadow: 1px 1px 5px $white;
 }
+//              ,,        ,,
+//   .g8""8q.  *MM        db                    mm
+// .dP'    `YM. MM                              MM
+// dM'      `MM MM,dMMb.`7MM  .gP"Ya   ,p6"bo mmMMmm ,pP"Ybd
+// MM        MM MM    `Mb MM ,M'   Yb 6M'  OO   MM   8I   `"
+// MM.      ,MP MM     M8 MM 8M"""""" 8M        MM   `YMMMa.
+// `Mb.    ,dP' MM.   ,M9 MM YM.    , YM.    ,  MM   L.   I8
+//   `"bmmd"'   P^YbmdP'  MM  `Mbmmd'  YMbmd'   `MbmoM9mmmP'
+//                     QO MP
+//                     `bmP
+.mediaObj {
+	@include group();
+	@include break(mobile) {
+		border-top: 0.2em solid $blue;
+		padding-top: 1em;
+	}
+}
+.media {
+	display: block;
+	float: right;
+	margin-left: 1em;
+	@include break(mobile) {
+		float: none;
+		margin: 0 auto;
+	}
+}
 //            ,,                                          ,,        ,,
 //  .M"""bgd  db   mm               `7MMF'     A     `7MF'db      `7MM
 // ,MI    "Y       MM                 `MA     ,MA     ,V            MM
@@ -88,9 +114,6 @@ body {
 	}
 }
 .wrap {
-//	@extend .boxShadow;
-//	background-color:blue;
-//	border:1px solid $darkBlue;
 	margin: 0 auto;
 	max-width:$fullWidth;
 	padding:1em;
@@ -102,13 +125,17 @@ body {
 	}
 }
 h1, h2, h3, h4, h5, h6 {
-	font-weight:400;
+//	font-weight:400;
 }
 h1, h2 {
 	@extend .script;
 }
 h1 {
 	font-size:3em;
+	text-align: center;
+}
+h2 {
+	font-size: 2.2em;
 }
 a:link, a:visited {
 	color: $blue;
@@ -150,13 +177,6 @@ ul {
 	list-style-type:none;
 	margin:1em;
 	padding:0;
-}
-.mediaObj {
-	@include group();
-}
-.media {
-	float: right;
-	margin-left: 1em;
 }
 // MM MM MM                                                     MM MM MM
 // MM MM MM     `7MM"""Mq.                                      MM MM MM
