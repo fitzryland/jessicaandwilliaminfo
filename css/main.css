@@ -12,14 +12,16 @@
 .textShadow, .welcome section {
   text-shadow: 1px 1px 5px #fffefa; }
 
-.mediaObj:after {
-  content: "";
-  display: table;
-  clear: both; }
-@media only screen and (max-width: 600px) {
-  .mediaObj {
-    border-top: 0.2em solid #104acd;
-    padding-top: 1em; } }
+.mediaObj {
+  margin: 1em 0; }
+  .mediaObj:after {
+    content: "";
+    display: table;
+    clear: both; }
+  @media only screen and (max-width: 600px) {
+    .mediaObj {
+      border-top: 0.2em solid #104acd;
+      padding-top: 1em; } }
 
 .media {
   display: block;
@@ -29,6 +31,12 @@
     .media {
       float: none;
       margin: 0 auto; } }
+
+.mediaDescription {
+  padding-top: 1em; }
+  @media only screen and (max-width: 600px) {
+    .mediaDescription {
+      padding: 0; } }
 
 * {
   box-sizing: border-box; }
@@ -144,8 +152,7 @@ ul {
     font-size: 1.6em; }
 
 .dayTitle {
-  font-size: 2em;
-  text-align: center; }
+  font-size: 2.3em; }
 
 .event {
   margin-bottom: 1em; }
