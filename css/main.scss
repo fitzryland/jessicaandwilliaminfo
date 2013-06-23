@@ -244,9 +244,16 @@ section {
 	@include group();
 }
 footer {
+	position: relative;
 	text-align: center;
 	img {
 		@include rotate(135deg);
+	}
+	.attribution {
+		bottom: 0;
+		font-size: 0.7em;
+		position: absolute;
+		right: 0;
 	}
 }
 h1:first-child {

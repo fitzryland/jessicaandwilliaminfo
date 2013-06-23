@@ -164,6 +164,7 @@ section:after {
   clear: both; }
 
 footer {
+  position: relative;
   text-align: center; }
   footer img {
     -webkit-transform: rotate(135deg);
@@ -171,6 +172,11 @@ footer {
     -o-transform: rotate(135deg);
     -ms-transform: rotate(135deg);
     transform: rotate(135deg); }
+  footer .attribution {
+    bottom: 0;
+    font-size: 0.7em;
+    position: absolute;
+    right: 0; }
 
 ul {
   list-style-type: none;
