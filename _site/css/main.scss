@@ -157,6 +157,8 @@ $gray: #afafaf;
 	box-sizing: border-box;
 }
 img {
+	height: auto;
+	max-width: 100%;
 	padding: 0 !important; // with box-sizing: border-box images should never have padding
 }
 body {
@@ -203,14 +205,14 @@ nav {
 	position: relative;
 	text-align: center;
 	a:link, a:visited {
-		color:$darkBlue;
-		margin-left:1em;
+		color: $darkBlue;
+		margin-left: 1em;
 		padding-bottom: 0.1em;
 		text-decoration: none;
 	}
 	a:hover, a:active {
 		color: $lightBlue;
-		text-decoration: underline;
+		border-bottom: 0.2em solid $lightBlue;
 	}
 	a:first-child {
 		margin-left:0;
@@ -218,6 +220,19 @@ nav {
 	.current:link, .current:visited {
 		color: $lightBlue;
 		border-bottom: 0.2em solid $lightBlue;
+		position: relative;
+		&:after {
+			background-color: $lightBlue;
+			bottom: -0.6em;
+			border: 0.2em solid $lightBlue;
+			border-radius: 1em;
+			content: "";
+			height: 0.2em;
+			left: 50%;
+			margin-left: -0.1em;
+			position: absolute;
+			width: 0.2em;
+		}
 	}
 	.current:hover, .current:active {
 		text-decoration: none;
@@ -231,6 +246,13 @@ nav {
 		content:url(../images/iron.png);
 		position: absolute;
 		right:-5.4em;
+		@include break (full) {
+			bottom: -5.6em;
+			right: -5em;
+		}
+		@include break (mobile) {
+			right: 0;
+		}
 	}
 	&:before {
 		content:url(../images/iron.png);
@@ -238,6 +260,13 @@ nav {
 		left: -5.4em;
 		position: absolute;
 		@include rotate(270deg);
+		@include break (full) {
+			bottom: -5.5em;
+			left: -5em;
+		}
+		@include break (mobile) {
+			left: 0;
+		}
 	}
 }
 section {

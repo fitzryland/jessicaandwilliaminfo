@@ -82,6 +82,8 @@
   box-sizing: border-box; }
 
 img {
+  height: auto;
+  max-width: 100%;
   padding: 0 !important; }
 
 body {
@@ -130,12 +132,24 @@ nav {
     text-decoration: none; }
   nav a:hover, nav a:active {
     color: #3588ff;
-    text-decoration: underline; }
+    border-bottom: 0.2em solid #3588ff; }
   nav a:first-child {
     margin-left: 0; }
   nav .current:link, nav .current:visited {
     color: #3588ff;
-    border-bottom: 0.2em solid #3588ff; }
+    border-bottom: 0.2em solid #3588ff;
+    position: relative; }
+    nav .current:link:after, nav .current:visited:after {
+      background-color: #3588ff;
+      bottom: -0.6em;
+      border: 0.2em solid #3588ff;
+      border-radius: 1em;
+      content: "";
+      height: 0.2em;
+      left: 50%;
+      margin-left: -0.1em;
+      position: absolute;
+      width: 0.2em; }
   nav .current:hover, nav .current:active {
     text-decoration: none; }
   @media only screen and (max-width: 850px) {
@@ -147,6 +161,13 @@ nav {
     content: url(../images/iron.png);
     position: absolute;
     right: -5.4em; }
+    @media only screen and (max-width: 850px) {
+      nav:after {
+        bottom: -5.6em;
+        right: -5em; } }
+    @media only screen and (max-width: 600px) {
+      nav:after {
+        right: 0; } }
   nav:before {
     content: url(../images/iron.png);
     bottom: -6em;
@@ -157,6 +178,13 @@ nav {
     -o-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg); }
+    @media only screen and (max-width: 850px) {
+      nav:before {
+        bottom: -5.5em;
+        left: -5em; } }
+    @media only screen and (max-width: 600px) {
+      nav:before {
+        left: 0; } }
 
 section:after {
   content: "";
