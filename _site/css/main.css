@@ -72,7 +72,8 @@ a:hover, a:active {
   color: #3588ff; }
 
 nav {
-  border-bottom: 0.1em solid #104acd;
+  border-bottom: 0.2em solid #0f2231;
+  position: relative;
   text-align: center; }
   nav a:link, nav a:visited {
     color: #0f2231;
@@ -92,11 +93,35 @@ nav {
     nav {
       font-size: 1.1em;
       line-height: 1.7em; } }
+  nav:after {
+    bottom: -6.1em;
+    content: url(../images/iron.png);
+    position: absolute;
+    right: -5.4em; }
+  nav:before {
+    content: url(../images/iron.png);
+    bottom: -6.1em;
+    left: -5.4em;
+    position: absolute;
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg); }
 
 section:after {
   content: "";
   display: table;
   clear: both; }
+
+footer {
+  text-align: center; }
+  footer img {
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg); }
 
 ul {
   list-style-type: none;

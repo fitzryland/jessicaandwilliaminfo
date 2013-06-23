@@ -42,6 +42,13 @@ $boxShadow:hsla(0%, 0%, 10%, 0.2);
 		clear: both;
 	}
 }
+@mixin rotate($deg) {
+	-webkit-transform: rotate($deg);
+	-moz-transform: rotate($deg);
+	-o-transform: rotate($deg);
+	-ms-transform: rotate($deg);
+	transform: rotate($deg);
+}
 //                                                        ,,
 // `7MM"""YMM               mm                          `7MM
 //   MM    `7               MM                            MM
@@ -144,7 +151,8 @@ a:hover, a:active {
 	color: $lightBlue;
 }
 nav {
-	border-bottom: 0.1em solid $blue;
+	border-bottom: 0.2em solid $darkBlue;
+	position: relative;
 	text-align: center;
 	a:link, a:visited {
 		color:$darkBlue;
@@ -169,9 +177,28 @@ nav {
 		font-size:1.1em;
 		line-height:1.7em;
 	}
+	&:after {
+		bottom: -6.1em;
+		content:url(../images/iron.png);
+		position: absolute;
+		right:-5.4em;
+	}
+	&:before {
+		content:url(../images/iron.png);
+		bottom: -6.1em;
+		left: -5.4em;
+		position: absolute;
+		@include rotate(270deg);
+	}
 }
 section {
 	@include group();
+}
+footer {
+	text-align: center;
+	img {
+		@include rotate(135deg);
+	}
 }
 h1:first-child {
 //	float: left;
