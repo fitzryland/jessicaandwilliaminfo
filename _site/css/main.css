@@ -251,5 +251,31 @@ ul {
 iframe {
   float: right; }
 
+.weddingParty ul {
+  text-align: center; }
+  .weddingParty ul li:first-child {
+    font-weight: 700; }
+.weddingParty img {
+  display: block;
+  margin: 0 auto; }
+
+.mainParty {
+  margin: 0 auto;
+  width: 60%; }
+  @media only screen and (max-width: 850px) {
+    .mainParty {
+      width: 80%; } }
+  @media only screen and (max-width: 600px) {
+    .mainParty {
+      width: 100%; } }
+  .mainParty:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .mainParty ul {
+    float: left;
+    margin: 0 0 2em;
+    width: 50%; }
+
 .cashWrap {
   display: none; }

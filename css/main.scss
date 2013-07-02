@@ -405,7 +405,35 @@ iframe {
 //       VF      VF    `Mbmmd'  `Wbmd"MML.    .JMML.    `Moo9^Yo..JMML.     `Mbmo    ,V
 //                                                                                  ,V
 //                                                                               OOb"
-
+.weddingParty {
+	ul {
+		text-align: center;
+		li:first-child {
+			font-weight: 700;
+		}
+	}
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+.mainParty {
+	margin: 0 auto;
+	width: 60%;
+	@include break(full) {
+		width: 80%;
+	}
+	@include break(mobile) {
+		width: 100%;
+	}
+	@include group();
+	ul {
+		float: left;
+		margin: 0 0 2em;
+		// text-align: left;
+		width: 50%;
+	}
+}
 //                                 ,,
 // `7MM"""Mq.                      db            mm
 //   MM   `MM.                                   MM
