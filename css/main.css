@@ -18,7 +18,7 @@
     content: "";
     display: table;
     clear: both; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     .mediaObj {
       border-top: 0.2em solid #104acd;
       padding-top: 1em; } }
@@ -27,14 +27,14 @@
   display: block;
   float: right;
   margin-left: 1em; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     .media {
       float: none;
       margin: 0 auto; } }
 
 .mediaDescription {
   padding-top: 1em; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     .mediaDescription {
       padding: 0; } }
 
@@ -91,7 +91,7 @@ body {
   color: #0f2231;
   font-size: 16px;
   padding: 1em; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     body {
       padding: 0; } }
 
@@ -99,10 +99,10 @@ body {
   margin: 0 auto;
   max-width: 730px;
   padding: 1em; }
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 920px) {
     .wrap {
       width: 550px; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     .wrap {
       width: 316px; } }
 
@@ -152,7 +152,7 @@ nav {
       width: 0.2em; }
   nav .current:hover, nav .current:active {
     text-decoration: none; }
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 920px) {
     nav {
       font-size: 1.1em;
       line-height: 1.7em; } }
@@ -161,11 +161,11 @@ nav {
     content: url(../images/iron.png);
     position: absolute;
     right: -5.4em; }
-    @media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 920px) {
       nav:after {
         bottom: -5.6em;
         right: -5em; } }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
       nav:after {
         right: 0; } }
   nav:before {
@@ -178,11 +178,11 @@ nav {
     -o-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg); }
-    @media only screen and (max-width: 850px) {
+    @media only screen and (max-width: 920px) {
       nav:before {
         bottom: -5.5em;
         left: -5em; } }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 700px) {
       nav:before {
         left: 0; } }
 
@@ -240,13 +240,20 @@ ul {
   float: left;
   text-align: center;
   width: 33%; }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     .evMeta {
       float: none;
       width: 100%; } }
 
 .evTitle {
   font-size: 1.5em; }
+
+.evDesc {
+  margin-left: 33%;
+  padding: 1em 0 1em 1em; }
+  @media only screen and (max-width: 700px) {
+    .evDesc {
+      margin-left: 0; } }
 
 iframe {
   float: right; }
@@ -262,10 +269,10 @@ iframe {
 .mainParty {
   margin: 0 auto;
   width: 60%; }
-  @media only screen and (max-width: 850px) {
+  @media only screen and (max-width: 920px) {
     .mainParty {
       width: 80%; } }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
     .mainParty {
       width: 100%; } }
   .mainParty:after {

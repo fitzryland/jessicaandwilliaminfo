@@ -7,10 +7,10 @@
 //     `MM A'  ,pm9MM    MM       MM   ,pm9MM  MM     M8 MM 8M"""""" `YMMMa.
 //      :MM;  8M   MM    MM       MM  8M   MM  MM.   ,M9 MM YM.    , L.   I8
 //       VF   `Moo9^Yo..JMML.   .JMML.`Moo9^Yo.P^YbmdP'.JMML.`Mbmmd' M9mmmP'
-$fullBreak: 850px;
+$fullBreak: 920px;
 $fullWidth: 730px;
 $middleWidth: 550px;
-$mobileBreak: 600px;
+$mobileBreak: 700px;
 $mobileWidth: 316px;
 
 $white: #fffefa;
@@ -347,13 +347,7 @@ ul {
 	margin-bottom:1em;
 	@include group();
 }
-.evTitle {
-}
 .evMeta {
-	// border-top:0.5em solid lighten($lightBlue, 10%);
-	// border-right:0.5em solid $lightBlue;
-	// border-bottom:0.5em solid $lightBlue;
-	// border-left:0.5em solid lighten($lightBlue, 10%);
 	float:left;
 	text-align:center;
 	width:33%;
@@ -364,6 +358,13 @@ ul {
 }
 .evTitle {
 	font-size:1.5em;
+}
+.evDesc {
+	margin-left: 33%;
+	padding: 1em 0 1em 1em;
+	@include break(mobile) {
+		margin-left: 0;
+	}
 }
 //                ,,                                    ,,
 // `7MM"""Yb.     db                             mm     db
