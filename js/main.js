@@ -7,40 +7,42 @@ jQuery(document).ready(function() {
 			payPalItemDescription = form.item_name,
 			amount,
 			descriptionBase = "Your contribution to William and Jessica of $",
-			description;
-		function updateContribution() {
-			amount = $input.val();
-			description = descriptionBase + amount;
-			payPalPriceInput.value = amount;
-			payPalItemDescription.value = description;
-			errorHandle();
-		}
-		function errorHandle() {
-			if ( amount <= 0 || isNaN(amount) ) {
-				amount = 0;
-				$submit.addClass('noClick');
-			} else {
-				$submit.removeClass('noClick');
-			}
-		}
-		function submitHandle() {
-			if ( amount !== 0 ) {
-				form.submit();
-			}
-		}
+			description,
+			doForm = {
+				updateContribution: function() {
+					amount = $input.val();
+					description = descriptionBase + amount;
+					payPalPriceInput.value = amount;
+					payPalItemDescription.value = description;
+					this.errorHandle();
+				},
+				errorHandle: function() {
+					if ( amount <= 0 || isNaN(amount) ) {
+						amount = 0;
+						$submit.addClass('noClick');
+					} else {
+						$submit.removeClass('noClick');
+					}
+				},
+				submitHandle: function() {
+					if ( amount !== 0 ) {
+						form.submit();
+					}
+				}
+			};
 		$input.blur(function() {
-			updateContribution();
+			doForm.updateContribution();
 		});
 		$input.keypress(function() {
-			updateContribution();
+			doForm.updateContribution();
 		});
 		$submit.click(function() {
-			updateContribution();
-			submitHandle();
+			doForm.updateContribution();
+			doForm.submitHandle();
 		});
 		jQuery('#cashButton').click(function() {
-			console.log('BOOM');
 			jQuery('#cashWrapID').slideToggle('slow');
 		});
 	}
+
 });
