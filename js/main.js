@@ -40,9 +40,44 @@ jQuery(document).ready(function() {
 			doForm.updateContribution();
 			doForm.submitHandle();
 		});
-		jQuery('#cashButton').click(function() {
-			jQuery('#cashWrapID').slideToggle('slow');
-		});
 	}
-
+	jQuery('.tabHead').click(function() {
+		var $tabBody = jQuery(this).siblings('.tabBody'),
+			$detailsLink = jQuery(this).find('.detailsLink');
+		console.log(jQuery(this).find('.detailsLink').length);
+		if ($detailsLink.length > 0) {
+			if ($tabBody.css('display') == 'none') {
+				$detailsLink.text('Fewer Details');
+			} else {
+				$detailsLink.text('More Details');
+			}
+		}
+		$tabBody.slideToggle('slow');
+	});
+	var $allTabBody = jQuery('.tabBody');
+	for (var i = 0; i < $allTabBody.length; i++) {
+		console.log(jQuery($allTabBody[i]));
+		if (!jQuery($allTabBody[i]).hasClass('open')) {
+			jQuery($allTabBody[i]).slideToggle();
+		}
+	}
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

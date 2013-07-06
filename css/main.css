@@ -113,24 +113,24 @@ h1 {
 h2 {
   font-size: 2.2em; }
 
-a:link, a:visited {
+a:link, .detailsLink, a:visited, .detailsLink {
   color: #104acd;
   text-decoration: underline;
   transition: all 0.1s linear; }
 
-a:hover, a:active {
+a:hover, .detailsLink:hover, a:active, .detailsLink:hover {
   color: #3588ff; }
 
 nav {
   border-bottom: 0.2em solid #0f2231;
   position: relative;
   text-align: center; }
-  nav a:link, nav a:visited {
+  nav a:link, nav .detailsLink, nav a:visited, nav .detailsLink {
     color: #0f2231;
     margin-left: 1em;
     padding-bottom: 0.1em;
     text-decoration: none; }
-  nav a:hover, nav a:active {
+  nav a:hover, nav .detailsLink:hover, nav a:active, nav .detailsLink:hover {
     color: #3588ff;
     border-bottom: 0.2em solid #3588ff; }
   nav a:first-child {
@@ -211,6 +211,9 @@ ul {
   margin: 1em;
   padding: 0; }
 
+.tabHead:hover {
+  cursor: pointer; }
+
 /*body*/
 .welcome section {
   text-align: center; }
@@ -226,8 +229,17 @@ ul {
   .welcome section p {
     font-size: 1.6em; }
 
+.dayDesc {
+  font-size: 1.4em; }
+  @media only screen and (max-width: 700px) {
+    .dayDesc {
+      margin: 0; } }
+
 .dayTitle {
   font-size: 2.3em; }
+  @media only screen and (max-width: 700px) {
+    .dayTitle {
+      margin-bottom: 0; } }
 
 .event {
   margin-bottom: 1em; }
@@ -253,7 +265,8 @@ ul {
   padding: 1em 0 1em 1em; }
   @media only screen and (max-width: 700px) {
     .evDesc {
-      margin-left: 0; } }
+      margin-left: 0;
+      padding-left: 0; } }
 
 iframe {
   float: right; }
@@ -283,6 +296,9 @@ iframe {
     float: left;
     margin: 0 0 2em;
     width: 50%; }
+
+.registryLink {
+  margin: 1em 0; }
 
 .cashWrap {
   display: none; }

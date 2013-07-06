@@ -293,6 +293,11 @@ ul {
 	margin:1em;
 	padding:0;
 }
+.tabHead {
+	&:hover {
+		cursor: pointer;
+	}
+}
 // MM MM MM                                                     MM MM MM
 // MM MM MM     `7MM"""Mq.                                      MM MM MM
 // MM MM MM       MM   `MM.                                     MM MM MM
@@ -340,8 +345,23 @@ ul {
 // .     `MM 8M       MM    MM 8M"""""" 8MI    MM   MM    MM    MM 8M""""""
 // Mb     dM YM.    , MM    MM YM.    , `Mb    MM   MM    MM    MM YM.    ,
 // P"Ybmmd"   YMbmd'.JMML  JMML.`Mbmmd'  `Wbmd"MML. `Mbod"YML..JMML.`Mbmmd'
+.detailsLink {
+	@extend a:link, a:visited;
+	&:hover {
+		@extend a:hover, a:active;
+	}
+}
+.dayDesc {
+	font-size: 1.4em;
+	@include break(mobile) {
+		margin: 0;
+	}
+}
 .dayTitle {
 	font-size:2.3em;
+	@include break(mobile) {
+		margin-bottom: 0;
+	}
 }
 .event {
 	margin-bottom:1em;
@@ -364,6 +384,7 @@ ul {
 	padding: 1em 0 1em 1em;
 	@include break(mobile) {
 		margin-left: 0;
+		padding-left: 0;
 	}
 }
 //                ,,                                    ,,
@@ -445,6 +466,9 @@ iframe {
 // .JMML. .JMM.`Mbmmd'  YMMMMMb  .JMML.M9mmmP'   `Mbmo.JMML.       ,V
 //                     6'     dP                                  ,V
 //                     Ybmmmd'                                 OOb"
+.registryLink {
+	margin: 1em 0;
+}
 .cashWrap {
 	display: none;
 }
