@@ -12,6 +12,10 @@
 .textShadow, .welcome section {
   text-shadow: 1px 1px 5px #fffefa; }
 
+.imgShadow, section img {
+  -webkit-box-shadow: 2px 2px 10px #1a1a1a;
+  box-shadow: 2px 2px 10px #1a1a1a; }
+
 .mediaObj {
   margin: 1em 0; }
   .mediaObj:after {

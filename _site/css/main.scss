@@ -20,6 +20,7 @@ $darkBlue: #0f2231;
 $lightBlue: #3588ff;
 $boxShadow: hsla(0%, 0%, 10%, 0.2);
 $gray: #afafaf;
+$imgShadow:hsla(0%, 0%, 10%, 1);
 //                   ,,               ,,             gp
 // `7MMM.     ,MMF'  db               db             \/
 //   MMMb    dPMM                                    `'
@@ -71,6 +72,10 @@ $gray: #afafaf;
 }
 .textShadow {
 	text-shadow: 1px 1px 5px $white;
+}
+.imgShadow {
+	-webkit-box-shadow: 2px 2px 10px $imgShadow;
+	box-shadow: 2px 2px 10px $imgShadow;
 }
 //              ,,        ,,
 //   .g8""8q.  *MM        db                    mm
@@ -271,6 +276,9 @@ nav {
 }
 section {
 	@include group();
+	img {
+		@extend .imgShadow;
+	}
 }
 footer {
 	position: relative;
