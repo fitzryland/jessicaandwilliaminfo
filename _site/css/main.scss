@@ -405,7 +405,15 @@ iframe {
 //    AbmmmqMA  8M       8M       8M     M8 MM    MM    MM 8M     M8
 //   A'     VML YM.    , YM.    , YA.   ,A9 MM    MM    MM YA.   ,A9
 // .AMA.   .AMMA.YMbmd'   YMbmd'   `Ybmd9'.JMML  JMML  JMML.`Ybmd9'
-
+.topImg {
+	float: right;
+	margin-left: 1em;
+	@include break(full) {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
+}
 //                ,,          ,,
 // MMP""MM""YMM `7MM          db
 // P'   MM   `7   MM

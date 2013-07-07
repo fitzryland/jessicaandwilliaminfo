@@ -271,6 +271,15 @@ ul {
 iframe {
   float: right; }
 
+.topImg {
+  float: right;
+  margin-left: 1em; }
+  @media only screen and (max-width: 920px) {
+    .topImg {
+      display: block;
+      float: none;
+      margin: 0 auto; } }
+
 .weddingParty ul {
   text-align: center; }
   .weddingParty ul li:first-child {
