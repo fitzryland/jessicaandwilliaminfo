@@ -437,8 +437,6 @@ ul {
 //   MM    ,dP'   MM    MM    YM.    , YM.    ,  MM     MM YA.   ,A9 MM    MM  L.   I8
 // .JMMmmmdP'   .JMML..JMML.   `Mbmmd'  YMbmd'   `Mbmo.JMML.`Ybmd9'.JMML  JMML.M9mmmP'
 .mapWrap {
-	float:right;
-	margin-left: 1em;
 	@include break(full) {
 		margin-bottom: 1em;
 		width: 100%;
@@ -446,7 +444,6 @@ ul {
 	iframe {
 		display: block;
 		margin: 0 auto;
-		width: 425px;
 		@include break(mobile) {
 			height: auto;
 			width: 100%;

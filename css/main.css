@@ -88,6 +88,9 @@
 .underline {
   text-decoration: underline; }
 
+.italic {
+  font-style: italic; }
+
 * {
   box-sizing: border-box; }
 
@@ -300,29 +303,25 @@ ul {
 .saturdayImg {
   float: left; }
 
-.mapWrap {
-  float: right;
-  margin-left: 1em; }
-  @media only screen and (max-width: 920px) {
-    .mapWrap {
-      margin-bottom: 1em;
+@media only screen and (max-width: 920px) {
+  .mapWrap {
+    margin-bottom: 1em;
+    width: 100%; } }
+.mapWrap iframe {
+  display: block;
+  margin: 0 auto; }
+  @media only screen and (max-width: 700px) {
+    .mapWrap iframe {
+      height: auto;
       width: 100%; } }
-  .mapWrap iframe {
-    display: block;
-    margin: 0 auto;
-    width: 425px; }
-    @media only screen and (max-width: 700px) {
-      .mapWrap iframe {
-        height: auto;
-        width: 100%; } }
-  .mapWrap small {
-    display: block;
-    padding: 0 6em 1em;
-    width: 425px; }
-    @media only screen and (max-width: 700px) {
-      .mapWrap small {
-        padding: 0;
-        width: 100%; } }
+.mapWrap small {
+  display: block;
+  padding: 0 6em 1em;
+  width: 425px; }
+  @media only screen and (max-width: 700px) {
+    .mapWrap small {
+      padding: 0;
+      width: 100%; } }
 
 .topImg {
   float: right;
