@@ -150,6 +150,12 @@ $imgShadow:hsla(0%, 0%, 10%, 1);
 	background-image: linear-gradient(-5deg, $gray, $gray);
 	cursor: text;
 }
+.bold {
+	font-weight: 700;
+}
+.underline {
+	text-decoration: underline;
+}
 //            ,,                                          ,,        ,,
 //  .M"""bgd  db   mm               `7MMF'     A     `7MF'db      `7MM
 // ,MI    "Y       MM                 `MA     ,MA     ,V            MM
@@ -327,11 +333,12 @@ ul {
 /*body*/.welcome {
 	section {
 		@extend .textShadow;
+		margin-top: 2em;
 		text-align: center;
 		img {
 			display: block;
 			margin: 1em auto;
-			width: 530px;
+			//width: 530px;
 		}
 		h1, h2 {
 			display: inline;
@@ -339,6 +346,9 @@ ul {
 		h1 {
 			font-size: 2.8em;
 			margin: 0;
+		}
+		h2 {
+			margin: 0 0.2em;
 		}
 		p {
 			font-size: 1.6em;
@@ -361,14 +371,13 @@ ul {
 }
 .dayDesc {
 	font-size: 1.4em;
-	@include break(mobile) {
-		margin: 0;
-	}
+	margin: 0;
 }
 .dayTitle {
 	font-size:2.3em;
+	margin-bottom: 0;
 	@include break(mobile) {
-		margin-bottom: 0;
+		margin-top: 0.2em;
 	}
 }
 .event {
@@ -396,10 +405,25 @@ ul {
 	}
 }
 .schedule {
+	.tabHead {
+		text-align: center;
+		@include group();
+	}
 	img {
 		display: block;
-		margin: 0 auto;
+		margin: 0 auto 1em;
+		@include break(mobile) {
+			margin: 0 auto;
+			float: none;
+		}
 	}
+}
+.fridayIMG {
+	float: right;
+	vertical-align: middle;
+}
+.saturdayImg {
+	float: left;
 }
 //                ,,                                    ,,
 // `7MM"""Yb.     db                             mm     db
@@ -425,6 +449,15 @@ ul {
 			width: 100%;
 		}
 	}
+	small {
+		display: block;
+		padding: 0 6em 1em;
+		width:425px;
+		@include break(mobile) {
+			padding: 0;
+			width: 100%;
+		}
+	}
 }
 //       db
 //      ;MM:
@@ -441,6 +474,10 @@ ul {
 		float: none;
 		margin: 0 auto;
 	}
+}
+.hotelPhone {
+	display: block;
+	margin-top: 0.5em;
 }
 //                ,,          ,,
 // MMP""MM""YMM `7MM          db
@@ -464,6 +501,9 @@ ul {
 //                                                                                  ,V
 //                                                                               OOb"
 .weddingParty {
+	h1 {
+		margin-bottom: 0;
+	}
 	ul {
 		text-align: center;
 		li:first-child {
@@ -473,6 +513,9 @@ ul {
 	img {
 		display: block;
 		margin: 0 auto;
+	}
+	.lastUL {
+		margin-bottom: 2em;
 	}
 }
 .mainParty {
@@ -487,9 +530,11 @@ ul {
 	@include group();
 	ul {
 		float: left;
-		margin: 0 0 2em;
-		// text-align: left;
+		margin: 2em 0 0;
 		width: 50%;
+		&:last-child {
+			margin-bottom: 2em;
+		}
 	}
 }
 //                                 ,,
