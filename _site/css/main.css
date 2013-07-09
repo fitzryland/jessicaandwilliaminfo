@@ -303,25 +303,27 @@ ul {
 .saturdayImg {
   float: left; }
 
-@media only screen and (max-width: 920px) {
-  .mapWrap {
-    margin-bottom: 1em;
-    width: 100%; } }
-.mapWrap iframe {
-  display: block;
-  margin: 0 auto; }
+.mapWrap {
+  float: right;
+  padding-left: 1em;
+  width: 284px; }
+  @media only screen and (max-width: 920px) {
+    .mapWrap {
+      margin-bottom: 1em; } }
   @media only screen and (max-width: 700px) {
-    .mapWrap iframe {
-      height: auto;
-      width: 100%; } }
-.mapWrap small {
-  display: block;
-  padding: 0 6em 1em;
-  width: 425px; }
-  @media only screen and (max-width: 700px) {
-    .mapWrap small {
-      padding: 0;
-      width: 100%; } }
+    .mapWrap {
+      padding-left: 0; } }
+  .mapWrap iframe {
+    display: block;
+    margin: 0 auto; }
+  .mapWrap small {
+    display: block;
+    padding: 0 1em 1em;
+    width: 284px; }
+    @media only screen and (max-width: 700px) {
+      .mapWrap small {
+        padding: 0;
+        width: 100%; } }
 
 .topImg {
   float: right;

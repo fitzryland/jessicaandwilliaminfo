@@ -437,22 +437,23 @@ ul {
 //   MM    ,dP'   MM    MM    YM.    , YM.    ,  MM     MM YA.   ,A9 MM    MM  L.   I8
 // .JMMmmmdP'   .JMML..JMML.   `Mbmmd'  YMbmd'   `Mbmo.JMML.`Ybmd9'.JMML  JMML.M9mmmP'
 .mapWrap {
+	float: right;
+	padding-left: 1em;
+	width: 284px;
 	@include break(full) {
 		margin-bottom: 1em;
-		width: 100%;
+	}
+	@include break(mobile) {
+		padding-left: 0;
 	}
 	iframe {
 		display: block;
 		margin: 0 auto;
-		@include break(mobile) {
-			height: auto;
-			width: 100%;
-		}
 	}
 	small {
 		display: block;
-		padding: 0 6em 1em;
-		width:425px;
+		padding: 0 1em 1em;
+		width: 284px;
 		@include break(mobile) {
 			padding: 0;
 			width: 100%;
