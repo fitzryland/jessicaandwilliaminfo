@@ -287,7 +287,7 @@
 			"file": "css/main.scss",
 			"settings":
 			{
-				"buffer_size": 14697,
+				"buffer_size": 14701,
 				"line_ending": "Unix"
 			}
 		},
@@ -300,10 +300,10 @@
 			}
 		},
 		{
-			"file": "registry.html",
+			"file": "directions.html",
 			"settings":
 			{
-				"buffer_size": 1954,
+				"buffer_size": 1821,
 				"line_ending": "Unix"
 			}
 		}
@@ -472,13 +472,13 @@
 	},
 	"file_history":
 	[
-		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/accomodations.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/registry.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/directions.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/schedule.html",
+		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/accomodations.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/weddingparty.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/index.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/js/main.js",
-		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/registry.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/thingstodo.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/_layouts/default.html",
 		"/Users/fitzryland/Dropbox/Sites/MAMP Sites/htdocs/jessicaandwilliaminfo/_includes/_nav.html",
@@ -607,6 +607,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tab",
 			"small",
 			"friday",
 			"5",
@@ -733,8 +734,7 @@
 			"custom",
 			"home",
 			"Featured Projects",
-			"Pages",
-			"Our Services"
+			"Pages"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -752,7 +752,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -760,15 +760,15 @@
 					"file": "css/main.scss",
 					"settings":
 					{
-						"buffer_size": 14697,
+						"buffer_size": 14701,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								12183,
-								12183
+								11432,
+								11432
 							]
 						],
 						"settings":
@@ -910,7 +910,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6727.0,
+						"translation.y": 6302.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1076,18 +1076,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "registry.html",
+					"file": "directions.html",
 					"settings":
 					{
-						"buffer_size": 1954,
+						"buffer_size": 1821,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								124,
-								124
+								733,
+								733
 							]
 						],
 						"settings":
@@ -1225,8 +1225,7 @@
 								"Ruby on Rails": "ruby"
 							},
 							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1287,16 +1286,24 @@
 		"selected_items":
 		[
 			[
+				"dire",
+				"directions.html"
+			],
+			[
+				"reg",
+				"registry.html"
+			],
+			[
+				"sc",
+				"schedule.html"
+			],
+			[
 				"regis",
 				"registry.html"
 			],
 			[
 				"acco",
 				"accomodations.html"
-			],
-			[
-				"dire",
-				"directions.html"
 			],
 			[
 				"she",
@@ -1349,10 +1356,6 @@
 			[
 				"def",
 				"_layouts/default.html"
-			],
-			[
-				"reg",
-				"registry.html"
 			],
 			[
 				"sch",
@@ -1537,6 +1540,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": false,
-	"side_bar_width": 356.0,
+	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }
